@@ -1,0 +1,5 @@
+Wave
+Happy
+Sad
+Onehand
+Default

@@ -25,12 +25,13 @@ import javax.swing.JPanel;
  * @author Pierre Lison (plison@ifi.uio.no)
  * @version $Date:: 2014-04-16 17:34:31 #$
  */
-public class ButtonWizard {
+public class ButtonWizard_R25 {
 
     // logger
     JFrame frame;
     MyActionListener listener;
-    ToRobot robot;
+    Robot_R25 robot;
+    
     boolean shouldRun;
     HashSet<String> gestures;
 
@@ -55,8 +56,9 @@ public class ButtonWizard {
         addButtons(panel, utterances);
 
         gestures = readSet("resources/gestures.txt");
-        robot = new ToRobot();
+        robot = new Robot_R25();
         frame.setSize(400, 300);
+        frame.setTitle("R25-Control");
         // frame.setLocation(600, 600);
         frame.setVisible(true);
         shouldRun = true;
@@ -117,7 +119,7 @@ public class ButtonWizard {
     }
 
     public static void main(String args[]) {
-        ButtonWizard wizard = new ButtonWizard();
+        ButtonWizard_R25 wizard = new ButtonWizard_R25();
         wizard.start();
     }
 

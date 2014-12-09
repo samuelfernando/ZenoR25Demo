@@ -29,6 +29,13 @@
     <artifactId>org.mechio.client.basic</artifactId>
     <version>${mechio.version}</version>
 </dependency>
+
+        <dependency>
+            <groupId>org.robokind</groupId>
+            <artifactId>org.robokind.client.basic</artifactId>
+            <version>0.9.3</version>
+        </dependency>
+
 <dependency>
     <groupId>org.jflux</groupId>
     <artifactId>org.jflux.impl.messaging.rk</artifactId>

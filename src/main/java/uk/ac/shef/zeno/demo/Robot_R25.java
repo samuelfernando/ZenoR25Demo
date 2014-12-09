@@ -22,7 +22,7 @@ import uk.ac.shef.zeno.utils.Utils;
  * @author Pierre Lison (plison@ifi.uio.no)
  * @version $Date:: 2014-04-16 17:34:31 #$
  */
-public class ToRobot {
+public class Robot_R25 {
 
     // logger
     // start the agent in the middle of the grid
@@ -33,8 +33,8 @@ public class ToRobot {
     boolean robotActive;
     HashMap<String, Animation> animations;
 
-    public ToRobot() {
-        HashMap<String, String> configs = Utils.readConfig();
+    public Robot_R25() {
+        HashMap<String, String> configs = Utils.readConfig("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-r25-config.txt");
         animations = new HashMap<String, Animation>();
         Animation happyAnim = MechIO.loadAnimation("animations/victory.xml");
         Animation sadAnim = MechIO.loadAnimation("animations/disappointed.xml");

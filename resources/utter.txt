@@ -9,7 +9,7 @@ Occupation?	So what do you do for a living?
 Prompt1	That sounds interesting. Tell me more.
 Prompt2	Wow, that is cool. I'd like to hear more!
 Alone	I'm all alone. Why is no-one talking to me?
-Wonder	Why am I here? Why did you bring me to London?
+Wonder	Why am I here? Who are all these people?
 MyNameIs	My name is Zeno
 Default	Default
 NewPhrase3	New Phrase 3

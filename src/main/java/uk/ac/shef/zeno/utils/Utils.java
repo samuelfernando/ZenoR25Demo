@@ -11,13 +11,17 @@ import java.util.HashSet;
  * @author samf
  */
 public class Utils {
-    public static HashMap<String, String> readConfig() {
+    
+    
+    
+    
+    public static HashMap<String, String> readConfig(String file) {
         
         HashMap<String, String> configs = new HashMap<String, String>();
        
         try {
             BufferedReader br;
-            br = new BufferedReader(new FileReader("resources/zeno-r25-config.txt"));
+            br = new BufferedReader(new FileReader(file));
             String line;
             while ((line=br.readLine())!=null) {
                // System.out.println(line);

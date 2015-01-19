@@ -2,18 +2,18 @@ Hello	Hello there
 Hi	Hi there
 Howdy	Howdy partner
 Goodbye	Goodbye for now
-Name?	What's your name partner?
+Name?	What is your name?
 Nice	You look like a nice person
-Simon-Says?	Do you want to play a game of Simon Says?
+Nao	Nao is a really cool robot, he can do Tai Chi	
 Occupation?	So what do you do for a living?
 Prompt1	That sounds interesting. Tell me more.
 Prompt2	Wow, that is cool. I'd like to hear more!
 Alone	I'm all alone. Why is no-one talking to me?
 Wonder	Why am I here? Who are all these people?
-MyNameIs	My name is Zeno
+MyNameIs	My name is Zeeno, nice to meet you
 Default	Default
-NewPhrase3	New Phrase 3
-NewPhrase4	New Phrase 4
+Other-Zeno	I love my brother Zeno
+Welcome	Welcome to Sheffield Robotics!
 Wave	Wave
 Happy	Happy
 Sad	Sad

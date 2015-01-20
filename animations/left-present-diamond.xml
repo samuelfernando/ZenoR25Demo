@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Animation>
+	<Version type="Animation">
+		<Name>left-present-diamond.xml</Name>
+		<Number>1.0</Number>
+	</Version>
+	<Channels>
+		<Channel id="421" name="Left Grasp">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>52.0</Time><Position>0.2577565632458234</Position></ControlPoint>
+						<ControlPoint><Time>2996.0</Time><Position>0.4427207637231504</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="400" name="Left Upper">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>32.0</Time><Position>0.3174224343675418</Position></ControlPoint>
+						<ControlPoint><Time>3008.0</Time><Position>0.7183770883054892</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+	</Channels>
+	<AddOns />
+	<ChannelsParameters />
+	<SyncPointGroups />
+</Animation>

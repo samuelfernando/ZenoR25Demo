@@ -1,0 +1,6 @@
+Defaults
+Start Position
+Open grasp max
+Open grasp medium
+Close grasp
+Present diamond

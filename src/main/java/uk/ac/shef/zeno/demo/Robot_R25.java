@@ -46,6 +46,30 @@ public class Robot_R25 {
         animations.put("Wave", waveAnim);
         animations.put("Onehand", onehandAnim);
 
+        boolean rightBroken = Boolean.parseBoolean(configs.get("right-broken"));
+
+        Animation startAnim, openMaxAnim, openMedAnim, closeAnim, presentAnim;
+
+        if (rightBroken) {
+            startAnim = MechIO.loadAnimation("animations/left-diamond-start.xml");
+            openMaxAnim = MechIO.loadAnimation("animations/left-open-grasp-maximum.xml");
+            openMedAnim = MechIO.loadAnimation("animations/left-open-grasp-medium.xml");
+            closeAnim = MechIO.loadAnimation("animations/left-close-grasp.xml");
+            presentAnim = MechIO.loadAnimation("animations/left-present-diamond.xml");
+        } else {
+            startAnim = MechIO.loadAnimation("animations/diamond-start.xml");
+            openMaxAnim = MechIO.loadAnimation("animations/open-grasp-maximum.xml");
+            openMedAnim = MechIO.loadAnimation("animations/open-grasp-medium.xml");
+            closeAnim = MechIO.loadAnimation("animations/close-grasp.xml");
+            presentAnim = MechIO.loadAnimation("animations/present-diamond.xml");
+
+        }
+        animations.put("start", startAnim);
+        animations.put("openMax", openMaxAnim);
+        animations.put("openMed", openMedAnim);
+        animations.put("close", closeAnim);
+        animations.put("present", presentAnim);
+
         robotActive = Boolean.parseBoolean(configs.get("robot-active"));
         if (robotActive) {
             String robotID = "myRobot";

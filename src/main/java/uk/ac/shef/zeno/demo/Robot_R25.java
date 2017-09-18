@@ -34,7 +34,7 @@ public class Robot_R25 {
     HashMap<String, Animation> animations;
 
     public Robot_R25() {
-        HashMap<String, String> configs = Utils.readConfig("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-r25-config.txt");
+        HashMap<String, String> configs = Utils.readConfig("resources/zeno-r25-config.txt");
         animations = new HashMap<String, Animation>();
         Animation happyAnim = MechIO.loadAnimation("animations/victory.xml");
         Animation sadAnim = MechIO.loadAnimation("animations/disappointed.xml");
